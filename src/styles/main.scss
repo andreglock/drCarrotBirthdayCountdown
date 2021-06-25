@@ -1,0 +1,32 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+// This is where your styles can go, import any other scss or css files here or write your own style directly below
+
+body,
+body * {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(233, 233, 233);
+}
+  
+main.large-wrapper {
+  text-align: center;
+  color: violet;
+  background-image: url("../images/birthdayBGsms.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  div.wrapper {
+    background-color: rgba(0, 0, 0, 0.548);
+  }
+}
+
+@media (min-width: 768px) {
+  main.large-wrapper {
+    width: 90vw;
+    min-height: 94vh;
+    margin: auto;
+    border-radius: 20px;
+  }
+}
